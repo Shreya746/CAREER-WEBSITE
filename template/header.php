@@ -26,7 +26,13 @@
         background-color: #f0fdfa;;
         color:#0eb582;
       }
-      navbar{}
+      .navbar{
+        height: 60px;
+        font-size:1.25rem;
+    }
+    .nav-item{
+        padding:20px;
+    }
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -63,6 +69,8 @@
               <!-- link to publiser_list.php -->
               <li class="nav-item"><a class="nav-link" href="../User/publisher_list.php"><span class="fa fa-paperclip"></span> Publisher</a></li>
               <!-- link to books.php -->
+              <li class="nav-item"><a class="nav-link" href="../User/userhome.php"><span class=""></span> Home</a></li>
+
               <li class="nav-item"><a class="nav-link" href="../User/books.php"><span class="fa fa-book"></span> Books</a></li>
               <!-- link to shopping cart -->
               <li class="nav-item"><a class="nav-link" href="../User/cart.php"><span class="fa fa-shopping-cart"></span> My Cart</a></li>
@@ -76,7 +84,7 @@
     ?>
     <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="container"id ="heading-link">
-        <h1>Welcome to Simple Online Book Store</h1>
+        <h2>Welcome to Books Section</h2>
         <hr>
       </div>
     <?php } ?>

@@ -26,9 +26,9 @@
 
    <nav class="navbar">
       <div id="close-navbar" class="fas fa-times"></div>
-      <a href="userhome.html">home</a>
+      <a href="userhome.php">home</a>
       <a href="about.html">about</a>
-      <a href="courses.html">courses</a>
+      <a href="courses.php">courses</a>
       <a href="contact.html">contact</a>
    </nav>
 
@@ -137,6 +137,7 @@
          </div>
       </div>
 
+
       <div class="box">
          <div class="image">
             <img src="images/course-2-4.jpg" alt="">
@@ -152,6 +153,7 @@
          </div>
       </div>
 
+      
       <div class="box">
          <div class="image">
             <img src="images/course-2-6.jpg" alt="">
@@ -160,12 +162,14 @@
          <div class="content">
             <h3>choose what's best for you!</h3>
             <p>A career in law requires one to put in overtime grind spent in legal research. </p>
-            <a href="" class="../User/lawcolleges.phptn">read more</a>
+            <a href="../User/lawcolleges.php" class="btn">read more</a>
             <div class="icons">
                
             </div>
          </div>
       </div>
+
+
 
      
    </div>

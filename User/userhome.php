@@ -65,8 +65,8 @@ if (!isset($_SESSION['user_name'])) {
         <div class="buttons">
          <span class="btn active login-btn"><a href="login_form.php">login</a></span>
          <span class="btn register-btn"><a href="register_form.php">register</a></span><br>
-         <span class="btn register-btn"><a href="register_form.php">Login as admin</a></span><br>
-
+         <br>
+         <span class="btn login-admin-btn"><a href="Admin/admin.php">Login as admin</a></span>
          <br>
          <span class="btn login-admin-btn"><a href="logout.php">logout</a></span>
       </div>
@@ -267,7 +267,7 @@ if (!isset($_SESSION['user_name'])) {
                   <div class="content">
                      <h3>Engineering</h3>
                      <p>check out the top colleges </p>
-                     <a href="enginneringcolleges.php" class="btn">read more</a>
+                     <a href="engineeringcolleges.php" class="btn">read more</a>
                   </div>
                </div>
 
@@ -323,7 +323,7 @@ if (!isset($_SESSION['user_name'])) {
 
             <div class="box">
                <h3>quick links</h3>
-               <a href="userhome.html" class="link">home</a>
+               <a href="userhome.php" class="link">home</a>
                <a href="about.html" class="link">about</a>
                <a href="courses.php" class="link">courses</a>
                <a href="contact.html" class="link">contact</a>

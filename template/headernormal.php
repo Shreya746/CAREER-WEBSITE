@@ -66,7 +66,7 @@
                 <li class="nav-item"><a class="nav-link" href="admin_signout.php"><span class="fa fa-sign-out-alt"></span> Logout</a></li>
             <?php else: ?>
               <!-- link to publiser_list.php -->
-              <li class="nav-item"><a class="nav-link" href="../User/.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="../User/userhome.php">Home</a></li>
               <!-- link to books.php -->
               <li class="nav-item"><a class="nav-link" href="../User/about.html">About</a></li>
               <!-- link to shopping cart -->

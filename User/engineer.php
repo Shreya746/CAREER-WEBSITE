@@ -48,7 +48,7 @@
                       }
                       switch($key){
                         case "placements":
-                          $key = "About Placements : ";
+                          $key = "About Placements";
                           break;
                         case "college_name":
                           $key = "Title";

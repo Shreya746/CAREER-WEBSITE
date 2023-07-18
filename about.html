@@ -46,45 +46,48 @@
    <div id="close-form" class="fas fa-times"></div>
 
    <div class="buttons">
-      <span class="btn active login-btn">login</span>
-      <span class="btn register-btn">register</span><br>
+      <span class="btn active login-btn"><a href="User/login_form.php">login</a></span>
+      <span class="btn register-btn"><a href="User/register_form.php">register</a></span><br>
       <br>
-      <span class = "btn login-admin-btn">Login as Admin</span>
+      <span class="btn login-admin-btn"><a href="Admin/admin.php">Login as admin</a></span><br>
+      <br>
+      <!-- <span class="btn login-admin-btn"><a href="User/logout.php">logout</a></span> -->
    </div>
 
-   <form name="myform" class="login-form active" onsubmit="return validate()">
+   <!-- <form name="myform" class="login-form active" action="" onsubmit=" return formvalidate()">
       <h3>login now</h3>
-      <input type="email" name = "email"placeholder="enter your email" class="box">
-      <input type="password" name = "password" placeholder="enter your password" class="box">
+      <input type="email" name="email" placeholder="enter your email" class="box" id="e1">
+      <input type="password" name="password" placeholder="enter your password" class="box" id="p1">
       <div class="flex">
-         <input type="checkbox" name="" id="remember-me">
-         <label for="remember-me">remember me</label>
+         <input type="checkbox" name="">
+         <label>remember me</label>
          <a href="#">forgot password?</a>
       </div>
-      <button type="submit" class="btn" id = "login" name="register_btn"><a href = "./home.html">Login</a></button>
+      <a href="./home.html"><input type="submit" class="btn" id="login" name="register_btn" value="Login"></a>
 
-   </form>
+   </form> -->
 
-   <form name="myform" id = "login1"class="register-form" onsubmit="return validate()" method="post">
+   <!-- <form name="myform" id="login1" class="register-form" onsubmit="return regformvalidate()">
       <h3>register now</h3>
-      <input type="email" name = "email"placeholder="enter your email" class="box">
-      <input type="password" name = "password"placeholder="enter your password" class="box">
-      <input type="password" placeholder="confirm your password" class="box">
+      <input type="email" name="email" placeholder="enter your email" class="box" id="e2">
+      <input type="password" name="password" placeholder="enter your password" class="box" id="pass1">
+      <input type="password" placeholder="confirm your password" class="box" id='pass2'>
       <input type="submit" value="register now" class="btn">
-      <!-- <button type="submit" class="btn" id = "login" name="register_btn"><a href = "./User/userhome.html">Register</a></button> -->
+       <button type="submit" class="btn" id = "login" name="register_btn"><a href = "./User/userhome.html">Register</a></button> 
 
-   </form>
+   </form> -->
 
-   <form name="myform" class = "login-admin-form" action="" onsubmit="return validate()">
+   <form name="myform" class="login-admin-form" action="" onsubmit="return validate()">
       <h3>login now</h3>
-      <input type="email" name = "email" id = "email_id" placeholder="enter your email" class="box">
-      <input type="password" name = "password" id = "pwd" placeholder="enter your password" class="box">
+      <input type="email" name="email" id="email_id" placeholder="enter your email" class="box">
+      <input type="password" name="password" id="pwd" placeholder="enter your password" class="box">
       <div class="flex">
          <input type="checkbox" name="" id="remember-me">
          <label for="remember-me">remember me</label>
          <a href="#">forgot password?</a>
       </div>
-      <button type="submit" class="btn" id = "butn"  name="register_btn"><a href = "#" onclick='compare()'>Login as admin</a></button>
+      <button type="submit" class="btn" id="butn" name="register_btn" id="submit"><a href="#"
+            onclick='compare()'>Login as admin</a></button>
    </form>
 
 

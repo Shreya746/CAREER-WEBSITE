@@ -7,7 +7,7 @@
 	$conn = db_connect();
 	$result = getAllCollege($conn);
 ?>
-	<h4 class="fw-bolder text-center">Book List</h4>
+	<h4 class="fw-bolder text-center">College List</h4>
 	<center>
 	<hr class="bg-warning" style="width:5em;height:3px;opacity:1">
 	</center>

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-
 *{
    font-family: 'Poppins', sans-serif;
    margin:0; padding:0;
@@ -27,14 +26,14 @@
 }
 
 .container .content h3 span{
-   background: crimson;
+   background: 0eb582;
    color:#fff;
    border-radius: 5px;
    padding:0 15px;
 }
 
 .container .content h1 span{
-   color:crimson;
+   color:#0eb582;
 }
 
 .container .content p{
@@ -53,7 +52,7 @@
 }
 
 .container .content .btn:hover{
-   background: crimson;
+   background:#0eb582;
 }
 
 .form-container{
@@ -98,15 +97,15 @@
 
 .form-container form .form-btn{
    background: #fbd0d9;
-   color:crimson;
+   color:0eb582;
    text-transform: capitalize;
    font-size: 20px;
    cursor: pointer;
 }
 
 .form-container form .form-btn:hover{
-   background: crimson;
-   color:#fff;
+   background: #5be6bc;
+   color:black;
 }
 
 .form-container form p{
@@ -116,7 +115,8 @@
 }
 
 .form-container form p a{
-   color:crimson;
+   color:  #0eb582;
+   ;
 }
 
 .form-container form .error-msg{
@@ -125,6 +125,6 @@
    background: crimson;
    color:#fff;
    border-radius: 5px;
-   font-size: 20px;
+   font-size: 15px;
    padding:10px;
 }
