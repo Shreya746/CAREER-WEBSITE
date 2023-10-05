@@ -4,11 +4,10 @@
 
 @include 'config.php';
 
-session_start();
-
-if (!isset($_SESSION['user_name'])) {
-   header('location:login_system/login_form.php');
-}
+// session_start();
+// if (!isset($_SESSION['user_name'])) {
+//    header('location:login_system/login_form.php');
+// }
 
 ?>
 

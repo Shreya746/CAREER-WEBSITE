@@ -1,6 +1,11 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'root', '', 'obs_db');
+$conn = mysqli_connect(
+    'db',
+    'php_docker',
+    'password',
+    'obs_db'
+)
 
 
 ?>
